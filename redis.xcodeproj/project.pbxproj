@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0C5FAC1B291EA400687CE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C5FAB1B291EA400687CE3 /* AppDelegate.swift */; };
+		2F0C5FAE1B291EA400687CE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C5FAD1B291EA400687CE3 /* ViewController.swift */; };
+		2F0C5FB01B291EA400687CE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C5FAF1B291EA400687CE3 /* Images.xcassets */; };
+		2F0C5FB31B291EA400687CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C5FB11B291EA400687CE3 /* Main.storyboard */; };
+		2F0C5FBF1B291EA400687CE3 /* redisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C5FBE1B291EA400687CE3 /* redisTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F0C5FB91B291EA400687CE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F0C5F9E1B291EA400687CE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F0C5FA51B291EA400687CE3;
+			remoteInfo = redis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F0C5FA61B291EA400687CE3 /* redis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0C5FAA1B291EA400687CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0C5FAB1B291EA400687CE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F0C5FAD1B291EA400687CE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F0C5FAF1B291EA400687CE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F0C5FB21B291EA400687CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F0C5FB81B291EA400687CE3 /* redisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0C5FBD1B291EA400687CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0C5FBE1B291EA400687CE3 /* redisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redisTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F0C5FA31B291EA400687CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0C5FB51B291EA400687CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F0C5F9D1B291EA400687CE3 = {
+			isa = PBXGroup;
+			children = (
+				2F0C5FA81B291EA400687CE3 /* redis */,
+				2F0C5FBB1B291EA400687CE3 /* redisTests */,
+				2F0C5FA71B291EA400687CE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F0C5FA71B291EA400687CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C5FA61B291EA400687CE3 /* redis.app */,
+				2F0C5FB81B291EA400687CE3 /* redisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F0C5FA81B291EA400687CE3 /* redis */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C5FAB1B291EA400687CE3 /* AppDelegate.swift */,
+				2F0C5FAD1B291EA400687CE3 /* ViewController.swift */,
+				2F0C5FAF1B291EA400687CE3 /* Images.xcassets */,
+				2F0C5FB11B291EA400687CE3 /* Main.storyboard */,
+				2F0C5FA91B291EA400687CE3 /* Supporting Files */,
+			);
+			path = redis;
+			sourceTree = "<group>";
+		};
+		2F0C5FA91B291EA400687CE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C5FAA1B291EA400687CE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F0C5FBB1B291EA400687CE3 /* redisTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C5FBE1B291EA400687CE3 /* redisTests.swift */,
+				2F0C5FBC1B291EA400687CE3 /* Supporting Files */,
+			);
+			path = redisTests;
+			sourceTree = "<group>";
+		};
+		2F0C5FBC1B291EA400687CE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C5FBD1B291EA400687CE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F0C5FA51B291EA400687CE3 /* redis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0C5FC21B291EA400687CE3 /* Build configuration list for PBXNativeTarget "redis" */;
+			buildPhases = (
+				2F0C5FA21B291EA400687CE3 /* Sources */,
+				2F0C5FA31B291EA400687CE3 /* Frameworks */,
+				2F0C5FA41B291EA400687CE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redis;
+			productName = redis;
+			productReference = 2F0C5FA61B291EA400687CE3 /* redis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F0C5FB71B291EA400687CE3 /* redisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0C5FC51B291EA400687CE3 /* Build configuration list for PBXNativeTarget "redisTests" */;
+			buildPhases = (
+				2F0C5FB41B291EA400687CE3 /* Sources */,
+				2F0C5FB51B291EA400687CE3 /* Frameworks */,
+				2F0C5FB61B291EA400687CE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F0C5FBA1B291EA400687CE3 /* PBXTargetDependency */,
+			);
+			name = redisTests;
+			productName = redisTests;
+			productReference = 2F0C5FB81B291EA400687CE3 /* redisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F0C5F9E1B291EA400687CE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Zihua Li";
+				TargetAttributes = {
+					2F0C5FA51B291EA400687CE3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					2F0C5FB71B291EA400687CE3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 2F0C5FA51B291EA400687CE3;
+					};
+				};
+			};
+			buildConfigurationList = 2F0C5FA11B291EA400687CE3 /* Build configuration list for PBXProject "redis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F0C5F9D1B291EA400687CE3;
+			productRefGroup = 2F0C5FA71B291EA400687CE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F0C5FA51B291EA400687CE3 /* redis */,
+				2F0C5FB71B291EA400687CE3 /* redisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F0C5FA41B291EA400687CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0C5FB01B291EA400687CE3 /* Images.xcassets in Resources */,
+				2F0C5FB31B291EA400687CE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0C5FB61B291EA400687CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F0C5FA21B291EA400687CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0C5FAE1B291EA400687CE3 /* ViewController.swift in Sources */,
+				2F0C5FAC1B291EA400687CE3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0C5FB41B291EA400687CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0C5FBF1B291EA400687CE3 /* redisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F0C5FBA1B291EA400687CE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F0C5FA51B291EA400687CE3 /* redis */;
+			targetProxy = 2F0C5FB91B291EA400687CE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F0C5FB11B291EA400687CE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F0C5FB21B291EA400687CE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F0C5FC01B291EA400687CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F0C5FC11B291EA400687CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F0C5FC31B291EA400687CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F0C5FC41B291EA400687CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F0C5FC61B291EA400687CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = redisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redis.app/Contents/MacOS/redis";
+			};
+			name = Debug;
+		};
+		2F0C5FC71B291EA400687CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = redisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redis.app/Contents/MacOS/redis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F0C5FA11B291EA400687CE3 /* Build configuration list for PBXProject "redis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0C5FC01B291EA400687CE3 /* Debug */,
+				2F0C5FC11B291EA400687CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0C5FC21B291EA400687CE3 /* Build configuration list for PBXNativeTarget "redis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0C5FC31B291EA400687CE3 /* Debug */,
+				2F0C5FC41B291EA400687CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F0C5FC51B291EA400687CE3 /* Build configuration list for PBXNativeTarget "redisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0C5FC61B291EA400687CE3 /* Debug */,
+				2F0C5FC71B291EA400687CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F0C5F9E1B291EA400687CE3 /* Project object */;
+}
