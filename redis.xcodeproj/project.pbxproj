@@ -12,6 +12,8 @@
 		2F0C5FB01B291EA400687CE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C5FAF1B291EA400687CE3 /* Images.xcassets */; };
 		2F0C5FB31B291EA400687CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C5FB11B291EA400687CE3 /* Main.storyboard */; };
 		2F0C5FBF1B291EA400687CE3 /* redisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C5FBE1B291EA400687CE3 /* redisTests.swift */; };
+		2F0C5FC91B2C86FC00687CE3 /* NSMainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C5FC81B2C86FC00687CE3 /* NSMainSplitViewController.swift */; };
+		2F6C2A281B2D643300324BC2 /* RDWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C2A271B2D643300324BC2 /* RDWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		2F0C5FB81B291EA400687CE3 /* redisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0C5FBD1B291EA400687CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F0C5FBE1B291EA400687CE3 /* redisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redisTests.swift; sourceTree = "<group>"; };
+		2F0C5FC81B2C86FC00687CE3 /* NSMainSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMainSplitViewController.swift; sourceTree = "<group>"; };
+		2F6C2A271B2D643300324BC2 /* RDWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				2F0C5FAD1B291EA400687CE3 /* ViewController.swift */,
 				2F0C5FAF1B291EA400687CE3 /* Images.xcassets */,
 				2F0C5FB11B291EA400687CE3 /* Main.storyboard */,
+				2F6C2A271B2D643300324BC2 /* RDWindow.swift */,
+				2F0C5FC81B2C86FC00687CE3 /* NSMainSplitViewController.swift */,
 				2F0C5FA91B291EA400687CE3 /* Supporting Files */,
 			);
 			path = redis;
@@ -210,6 +216,8 @@
 			files = (
 				2F0C5FAE1B291EA400687CE3 /* ViewController.swift in Sources */,
 				2F0C5FAC1B291EA400687CE3 /* AppDelegate.swift in Sources */,
+				2F0C5FC91B2C86FC00687CE3 /* NSMainSplitViewController.swift in Sources */,
+				2F6C2A281B2D643300324BC2 /* RDWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +408,7 @@
 				2F0C5FC41B291EA400687CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F0C5FC51B291EA400687CE3 /* Build configuration list for PBXNativeTarget "redisTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +417,7 @@
 				2F0C5FC71B291EA400687CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
